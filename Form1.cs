@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace calculater
-{
+{  string oper = "";
+     double result = 0;
+     bool isoper = false;
     public partial class Form1 : Form
     {
-        string oper = "";
-        double result = 0;
-        bool isoper = false;
+      
         public Form1()
         {
             InitializeComponent();
